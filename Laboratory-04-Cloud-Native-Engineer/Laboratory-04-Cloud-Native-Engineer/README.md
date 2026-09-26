@@ -38,8 +38,3 @@ As part of the Cloud-Native Engineering Team at CloudNova Technologies, this mis
 - Managing the full container lifecycle: list, stop, verify, remove
 - Writing clear technical documentation in Markdown
 
-## Challenges Encountered
-
-Yung pinaka-nakalito sa akin sa umpisa ay yung `-p 8080:80` na port mapping — hindi ko agad na-gets kung alin talaga doon ang para sa host at alin ang para sa loob ng container, kaya ginamit ko yung `curl http://localhost:8080` para ma-confirm kung tama nga yung pagkakaintindi ko. Nahirapan din ako konti sa pag-iingat sa pangalan ng container (`my-nginx`) dahil kapag nagkamali ako ng spelling dito, hindi na magmamatch yung susunod kong `docker stop` o `docker rm`. Dagdag pa rito, since may takdang oras lang ang KillerCoda session, kinailangan ko talagang bilisan yung bawat step para hindi ma-cut off bago ko pa makuha yung mga screenshots. Pero sa kabuuan, dahil sa mga ganitong pagkakamali at pag-aayos, mas naging malinaw sa akin kung paano talaga sumusunod ang Docker sa buong lifecycle ng isang container — mula sa pag-run nito hanggang sa permanenteng pagtanggal.
-
-Prepared by Casem, Prince Edrian — BSIT 4-Block M
