@@ -22,5 +22,3 @@ Laboratory Activity 4 — Documenting the Nginx deployment and container managem
 ## Evidence
 
 See `screenshots/nginx-running.png` and `screenshots/container-lifecycle.png` for terminal output of the commands above.
-
-Prepared by Casem, Prince Edrian — BSIT 4-Block M
