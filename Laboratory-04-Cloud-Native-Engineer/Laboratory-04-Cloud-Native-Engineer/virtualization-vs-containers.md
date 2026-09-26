@@ -15,5 +15,3 @@ Comparing traditional virtualization to containerization technology.
 ## Why Containers?
 
 Para sa client, mas makatuwiran ang containers kumpara sa VMs dahil wala nang kailangang buong OS per instance — kaya ilang segundo lang, hindi na minuto, ang boot time. Isa pa, dahil parehong container ang gumagamit lang ng iisang host OS kernel, mas mababa ang consumption ng RAM at CPU, kaya mas maraming service ang kasya sa parehong server. Mas flexible din ito sa pag-scale — pwede lang mag-spin up o mag-tanggal ng container kaagad kapag kailangan, hindi tulad ng VM na kailangan pang maghintay ng buong boot process. Kaya kung ang gustong solusyunan ng client ay yung bagal at sayang na resources, malaking tulong ang containers, at sapat na rin naman ang isolation level nito para sa karamihan sa mga pangangailangan nila.
-
-Prepared by Casem, Prince Edrian — BSIT 4-Block M
