@@ -6,16 +6,6 @@
 
 ---
 
-## Summary of the Task
-
-In this mission I played the role of a deployment engineer for CloudNova Technologies. The goal was to build a small proof-of-concept private file-storage service that a university could use instead of paying for Google Drive.
-
-I used **Nextcloud** as the application and **MariaDB 10.6** as its database. Both were described in a single `docker-compose.yml` file and brought up together with one command, which is the core idea of Infrastructure as Code.
-
-```mermaid
-flowchart LR
-    B([Browser]) -->|port 8080| N["Service: app (Nextcloud)"]
-    N -->|host: database| M[("Service: database (MariaDB 10.6)")]
 ```
 
 ## Lab Objectives (all completed)
